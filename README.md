@@ -1,4 +1,4 @@
-## Objectives
+<!-- ## Objectives
 
 1. Understand the concept of AR Lifecycle methods
 2. Use `before_save`, `before_create`, and `before_validation`
@@ -13,8 +13,9 @@ even deleted.  Everything we cover here is called an "Active Record Lifecycle
 Callback". Many people just call them callbacks. It's a bit shorter.
 
 Take a look at the blog app that is included. Be sure to run the migrations
-before you start learning from Rails (we do this with `rake db:migrate`)! We
-have a `Post` model and a few views.  The `Post` `belongs_to` an `Author`.
+before you start learning from Rails (we do this with `rake db:migrate`)!  -->
+
+<!-- We have a `Post` model and a few views.  The `Post` `belongs_to` an `Author`. -->
 
 Note also that in the `Post` model you'll notice a **validation** to make sure
 that post titles are in title case. Title case means every word starts with a
